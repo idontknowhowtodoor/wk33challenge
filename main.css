@@ -1,8 +1,22 @@
-body{font-family:sans-serif;}
-section {background-color:#eee;}
-article {background-color: #fff;}
-footer { border: solid 1px;}
-a { color: green;}
+body {
+  font-family: sans-serif;
+}
+
+section {
+  background-color: #eee;
+}
+
+article {
+  background-color: #fff;
+}
+
+footer {
+  border: solid 1px;
+}
+
+a {
+  color: green;
+}
 
 section, article, footer {
   padding: 10px;
@@ -11,16 +25,17 @@ section, article, footer {
 
 nav {
   margin: 10px;
-  > a {
-    margin: 10px;
-    color: gray;
-    text-decoration: none;
-  }
+}
+nav > a {
+  margin: 10px;
+  color: gray;
+  text-decoration: none;
 }
 
 div > p {
   color: red;
 }
+
 article + article {
   margin-top: 10px;
 }
